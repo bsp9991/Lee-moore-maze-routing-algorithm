@@ -78,49 +78,49 @@ These arrays are used to traverse from a node to its immediate vertical and hori
  
 PSEUDOCODE:
 
-	Initializing arrays
+	initializing arrays
 	int arr1[4]={0,-1,0,1};
 	int arr2[4]={-1,0,1,0};
-	Ifstream inFile;
+	ifstream inFile;
 	openinputFile();
 	while(!inFile.eof())
 	{
-	Find(obstacles);
-	Find(nets);
-	Find(grid_size);
+	find(obstacles);
+	find(nets);
+	find(grid_size);
 	}
 	closefile();
 	printing(initial_grid);
 	Bool flag1=true;
-	While(flag1)
+	while(flag1)
 	{
-	Current_source_address;
-	Current_destination_address;
+	current_source_address;
+	current_destination_address;
 	x1= x_position_of_current_source_address;
 	y1= x_position_of_current_source_address;
 	x2= x_position_of_current_dest_address;
 	y2= x_position_of_current_dest_address;
 	arr[x1][y1]=-2; arr[x2][y2]=-3;
-	Maze_counter=1;
-	While(true)
+	maze_counter=1;
+	while(true)
 	{
 	/updation of neighbouring cells;
-	Repeat;
-	If(path==destination)
-	Break;
+	repeat;
+	if(path==destination)
+	break;
 	}
-	Printing(updated grid);
-	Traversing paths;
+	printing(updated grid);
+	traversing paths;
 	cout<<maze_router_path;
 	if(source_ad.size() ==0)
 	{
-	Flag1=false;
+	flag1=false;
 	}
 	}
  
 Results:
 
-For testfile 1:
+For test file 1:
 
 	Obstructions:
 	(3,11),(3,4),(3,5),(4,6),(5,6),(9,10),(11,10),(11,9),(11,8),(6,2),(7,2),(9,5),
