@@ -69,10 +69,13 @@ input file and then to open it
 5. Array grid: int arr[][]
 6. Int arr1[4]={0,-1,0,1}, int arr2[4]={-1,0,1,0}
 These arrays are used to traverse from a node to its immediate vertical and horizontal neighboring cells.
-7. NOTE: In the grid, each value depicts each functionality.
+7. NOTE: In the grid, each value depicts each functionality
 	-1 -> Obstacle
+   
 	 0 -> Can be used to route
+   
 	-2 -> Source
+   
 	-3 -> Destination
  
 PSEUDOCODE:
