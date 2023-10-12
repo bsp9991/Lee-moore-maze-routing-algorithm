@@ -66,13 +66,13 @@ DATA STRUCTURES AND FUNCTIONS:
 2. TUPLES
 
 3. Void openinputFile() : The function is used to extract the name of the
-input file and then to open it.
+input file and then to open it
 
-4.Stoi()
+4. Stoi()
 
 5. Array grid: int arr[][]
 
-6.Int arr1[4]={0,-1,0,1}, int arr2[4]={-1,0,1,0}
+6. Int arr1[4]={0,-1,0,1}, int arr2[4]={-1,0,1,0}
 
 These arrays are used to traverse from a node to its immediate vertical and horizontal neighboring cells.
 
