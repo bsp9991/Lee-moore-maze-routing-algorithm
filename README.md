@@ -79,8 +79,11 @@ These arrays are used to traverse from a node to its immediate vertical and hori
 7. NOTE: In the grid, each value depicts each functionality.
 
 	-1 -> Obstacle
-	0 -> Can be used to route.
+   
+	0 -> Can be used to route
+   
 	-2 -> Source
+   
 	-3 -> Destination
  
 PSEUDOCODE:
